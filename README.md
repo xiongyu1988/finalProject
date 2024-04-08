@@ -1,12 +1,6 @@
 # CPPND: Capstone Snake Game Example
 
-This is a starter repo for the Capstone project in the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213). The code for this repo was inspired by [this](https://codereview.stackexchange.com/questions/212296/snake-game-in-c-with-sdl) excellent StackOverflow post and set of responses.
-
-<img src="snake_game.gif"/>
-
-The Capstone Project gives you a chance to integrate what you've learned throughout this program. This project will become an important part of your portfolio to share with current and future colleagues and employers.
-
-In this project, you can build your own C++ application or extend this Snake game, following the principles you have learned throughout this Nanodegree Program. This project will demonstrate that you can independently create applications using a wide range of C++ features.
+This is improved version of Snake Game.
 
 ## Dependencies for Running Locally
 * cmake >= 3.7
@@ -30,9 +24,28 @@ In this project, you can build your own C++ application or extend this Snake gam
 3. Compile: `cmake .. && make`
 4. Run it: `./SnakeGame`.
 
-What I have been done:
-1. 
+What have been included:
+1. created readParameter class to read and extract numMountains from a .txt file
+2. created Mountain class to place mountain icon in the game
+3. created boundary in the game, if snake hit the boundary the game will stop  
 
+### Loop, Function, I/O:
+- The project reads data from a file and process the data, or the program writes data to a file.
+- The project uses data structures and immutable variables.
+
+### Object Oriented Programming:
+- One or more classes are added to the project with appropriate access specifiers for class members.
+- Class constructors utilize member initialization lists.
+- Classes abstract implementation details from their interfaces.
+
+### Memory Management:
+- The project makes use of references in function declarations.
+- The project uses destructors appropriately.
+- The project uses smart pointers instead of raw pointers.
+
+### Concurrency: 
+- The project uses multithreading.
+- A promise and future is used in the project.
 
 
 ## CC Attribution-ShareAlike 4.0 International
