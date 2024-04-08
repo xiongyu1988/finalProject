@@ -1,0 +1,1 @@
+numMountains = 10
