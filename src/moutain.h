@@ -6,19 +6,18 @@
 #include "snake.h"
 #include "coordinates.h"
 
-class Mountain {
- public:
-  Mountain() = default;
-  Mountain(int grid_width, int grid_height);
-    int x;
+class Mountain
+{
+public:
+  Mountain(size_t grid_width, size_t grid_height, int x, int y);
+  int x;
   int y;
   SDL_Point get_mountain() const;
 
   // Getter
   std::vector<Coordinate> getCoordinates() const;
 
- private:
-
+private:
   SDL_Point location;
   std::vector<Coordinate> coordinates;
   size_t grid_width;
