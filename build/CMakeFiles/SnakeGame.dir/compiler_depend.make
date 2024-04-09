@@ -1133,7 +1133,17 @@ CMakeFiles/SnakeGame.dir/src/main.cpp.o: ../src/main.cpp \
   /usr/include/c++/11/backward/auto_ptr.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   ../src/moutain.h \
-  ../src/coordinates.h
+  ../src/coordinates.h \
+  /usr/include/c++/11/thread \
+  /usr/include/c++/11/bits/std_thread.h \
+  /usr/include/c++/11/bits/this_thread_sleep.h \
+  /usr/include/c++/11/chrono \
+  /usr/include/c++/11/ratio \
+  /usr/include/c++/11/ctime \
+  /usr/include/c++/11/bits/parse_numbers.h \
+  /usr/include/c++/11/mutex \
+  /usr/include/c++/11/bits/std_mutex.h \
+  /usr/include/c++/11/bits/unique_lock.h
 
 CMakeFiles/SnakeGame.dir/src/moutain.cpp.o: ../src/moutain.cpp \
   /usr/include/stdc-predef.h \
@@ -2306,6 +2316,14 @@ CMakeFiles/SnakeGame.dir/src/snake.cpp.o: ../src/snake.cpp \
 
 ../src/moutain.cpp:
 
+/usr/include/c++/11/mutex:
+
+/usr/include/c++/11/ctime:
+
+/usr/include/c++/11/ratio:
+
+/usr/include/c++/11/thread:
+
 ../src/main.cpp:
 
 ../src/coordinates.h:
@@ -2327,6 +2345,8 @@ CMakeFiles/SnakeGame.dir/src/snake.cpp.o: ../src/snake.cpp \
 /usr/include/c++/11/bits/stl_relops.h:
 
 /usr/include/c++/11/bits/unique_ptr.h:
+
+/usr/include/c++/11/bits/unique_lock.h:
 
 /usr/include/c++/11/bits/uses_allocator.h:
 
@@ -2399,6 +2419,8 @@ CMakeFiles/SnakeGame.dir/src/snake.cpp.o: ../src/snake.cpp \
 /usr/include/c++/11/bits/locale_classes.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/usr/include/c++/11/bits/this_thread_sleep.h:
 
 /usr/include/c++/11/bits/locale_facets.tcc:
 
@@ -2602,6 +2624,8 @@ CMakeFiles/SnakeGame.dir/src/snake.cpp.o: ../src/snake.cpp \
 
 /usr/include/SDL2/SDL_main.h:
 
+/usr/include/c++/11/bits/parse_numbers.h:
+
 /usr/lib/gcc/x86_64-linux-gnu/11/include/clflushoptintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vnniintrin.h:
@@ -2690,6 +2714,8 @@ CMakeFiles/SnakeGame.dir/src/snake.cpp.o: ../src/snake.cpp \
 
 /usr/include/c++/11/bits/stl_iterator_base_types.h:
 
+/usr/include/c++/11/bits/std_mutex.h:
+
 /usr/include/c++/11/tr1/poly_laguerre.tcc:
 
 /usr/include/c++/11/bits/stl_iterator.h:
@@ -2699,6 +2725,8 @@ CMakeFiles/SnakeGame.dir/src/snake.cpp.o: ../src/snake.cpp \
 /usr/include/SDL2/SDL_stdinc.h:
 
 /usr/include/c++/11/vector:
+
+/usr/include/c++/11/chrono:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
@@ -2771,6 +2799,8 @@ CMakeFiles/SnakeGame.dir/src/snake.cpp.o: ../src/snake.cpp \
 /usr/include/c++/11/pstl/execution_defs.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/xsavesintrin.h:
+
+/usr/include/c++/11/bits/std_thread.h:
 
 /usr/include/c++/11/bits/cpp_type_traits.h:
 
