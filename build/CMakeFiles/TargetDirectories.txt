@@ -1,0 +1,3 @@
+/home/xiongyu1988/finalProjectUdacity/projectYu/build/CMakeFiles/SnakeGame.dir
+/home/xiongyu1988/finalProjectUdacity/projectYu/build/CMakeFiles/edit_cache.dir
+/home/xiongyu1988/finalProjectUdacity/projectYu/build/CMakeFiles/rebuild_cache.dir
